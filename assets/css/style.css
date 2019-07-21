@@ -1,0 +1,240 @@
+/**
+===================================================================================
+===============================  FRONT PAGE STYLE START  ==========================
+===================================================================================
+ */
+/*Mobile Layout: 320px*/
+@media only screen and (max-width: 767px) {
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 25px;
+        background: #f1f1f1;
+    }
+    .section-margin{
+       margin: 20px 0;
+    }
+    section{
+        background: #ffffff;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .top-bar-section {
+        position: relative;
+    }
+    .bg-overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #0A5A42;
+        opacity: 0.3;
+    }
+    .notification i.fa {
+        color: #fff;
+        font-size: 25px;
+    }
+    .notification {
+        position: relative;
+        display: inline-block;
+        float: left;
+        padding-right: 50px;
+    }
+    .top-bar {
+        padding: 40px 0;
+    }
+
+    .search-area {
+        display: inline-block;
+        margin-top: -25px;
+    }
+    .search-area i.fa {
+        color: #fff;
+        font-size: 25px;
+        padding-top: 23px;
+    }
+    .search-form{
+        display: none;
+        opacity: 0;
+        transition: all .5s;
+    }
+    .search-form .form-control {
+        width: 80%;
+        float: left;
+        border: none;
+        border-radius: initial;
+    }
+    .search-form .form-control:focus{
+        box-shadow: initial;
+    }
+    .search-icon {
+        display: inline-block;
+        float: left;
+    }
+    .search-btn {
+        background: #fff;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .search-btn i.fa {
+        font-size: 18px;
+        color: #333;
+        padding: 10px 11px;
+        border-left: 1px solid #ddd;
+    }
+    .notification-count {
+        position: absolute;
+        top: -2px;
+        left: 17px;
+        background: #E04343;
+        display: block;
+        padding: 0 15px;
+        height: 23px;
+        text-align: center;
+        color: #fff;
+        border-radius: 15px;
+    }
+    .user-avatar {
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-right: 10px;
+    }
+    .user-avatar img {
+        border-radius: 50%;
+    }
+    .user-info-section {
+        padding: 15px 0;
+    }
+    .user-details {
+        display: inline-block;
+    }
+    .user-details h6 {
+        text-transform: capitalize;
+        font-weight: 600;
+        color: #333;
+        padding-top: 10px;
+        margin-bottom: 3px;
+    }
+    .product-cat-section {
+        margin-bottom: 80px;
+        padding: 15px 0;
+    }
+    .single-product {
+        position: relative;
+        width: 46%;
+        float: left;
+        margin: 5px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+    .product-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #0A5A42;
+        opacity: 0.3;
+    }
+    .product-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .product-title p {
+        position: absolute;
+        margin: 0;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .footer-section {
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-top: 2px solid #ddd;
+    }
+    .footer-common-style i.fa {
+        color: gray;
+        font-size: 22px;
+    }
+    .footer-common-style p {
+        margin: 0;
+        font-size: 12px;
+        color: gray;
+        margin-top: -10px;
+        text-transform: capitalize;
+    }
+    .footer-common-style {
+        padding: 10px 0;
+        cursor: pointer;
+    }
+
+    .navigation-menu {
+        padding: 20px 0;
+        background: #B6CEC6;
+        position: fixed;
+        bottom: 60px;
+        width: 100%;
+        z-index: 9999;
+        right: -100%;
+        transition: all .5s;
+        height: 80%;
+        opacity: 1;
+        overflow-y: scroll;
+    }
+    .navigation-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .navigation-menu ul li a {
+        color: #fff;
+        text-transform: capitalize;
+        padding: 5px 15px;
+        display: block;
+        font-weight: 600;
+        transition: all .5s;
+    }
+    .navigation-menu ul li a:hover {
+        text-decoration: none;
+        transition: all .5s;
+    }
+    .navigation-menu ul li.active a {
+        color: #333;
+        transition: all .5s;
+    }
+    .close{
+        padding-right: 20px;
+    }
+}
+
+/*Wide Mobile Layout: 480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .single-product {
+        width: 47%;
+    }
+}
+/**
+===================================================================================
+===============================  FRONT PAGE STYLE END  ==========================
+===================================================================================
+ */
